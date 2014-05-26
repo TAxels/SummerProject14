@@ -1,12 +1,12 @@
+import java.awt.*;
+import javax.swing.*;
+
 
 public class SProj14Main {
 
     
-    
-    
     public static void main(String[] args) {
-        // TODO Auto-generated method stub
-        CreateWindow cWindow = new CreateWindow();
+        //Load Window Here?
     }
 
 }
