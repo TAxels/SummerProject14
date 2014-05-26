@@ -23,22 +23,6 @@ public class SummerProject14Window extends JFrame {
     private JPanel contentPane;
 
     /**
-     * Launch the application.
-     */
-    public static void main(String[] args) {
-        EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                try {
-                    SummerProject14Window frame = new SummerProject14Window();
-                    frame.setVisible(true);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-            }
-        });
-    }
-
-    /**
      * Create the frame.
      */
     public SummerProject14Window() {

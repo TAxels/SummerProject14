@@ -6,7 +6,16 @@ public class SProj14Main {
 
     
     public static void main(String[] args) {
-        //Load Window Here?
+        EventQueue.invokeLater(new Runnable() {
+            public void run() {
+                try {
+                    SummerProject14Window frame = new SummerProject14Window();
+                    frame.setVisible(true);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        });
     }
 
 }
